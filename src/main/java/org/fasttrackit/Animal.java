@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Animal {
     String name;
-    int age;
+    int ageInMonths;
     int healthyLvl;
     int hungryLvl;
     int moodLvl;
