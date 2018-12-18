@@ -9,4 +9,6 @@ public class AnimalFood {
     int amount;
     LocalDate expirationDate;
     boolean inStoc;
+    String store;
+    String flavor;
 }

@@ -8,4 +8,6 @@ public class Animal {
     int moodLvl;
     AnimalFood favoriteFoodName;
     RecreationalActivity favoriteRecreationalActivity;
+    int friendlyLvl;
+    boolean loveKids;
 }
