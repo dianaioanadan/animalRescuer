@@ -2,9 +2,8 @@ package org.fasttrackit;
 
 import java.util.Currency;
 
-public class Adopter {
-    String name;
+public class Adopter extends Person{
+
     int moneyAvailable;
-    int ageInYears;
     boolean courtYard;
 }

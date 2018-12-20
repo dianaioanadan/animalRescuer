@@ -1,8 +1,7 @@
 package org.fasttrackit;
 
-public class Owner {
-    String name;
-    int ageInYears;
+public class Owner extends Person {
+
     String reasonToDonate;
     String telephoneNo;
 }
