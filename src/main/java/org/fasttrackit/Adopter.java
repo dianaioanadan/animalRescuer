@@ -16,4 +16,20 @@ public class Adopter extends Person{
 
         System.out.println(name + " play " + recreationalActivity.name + " with " + animal.name);
     }
+
+    public int getMoneyAvailable() {
+        return moneyAvailable;
+    }
+
+    public void setMoneyAvailable(int moneyAvailable) {
+        this.moneyAvailable = moneyAvailable;
+    }
+
+    public boolean isCourtYard() {
+        return courtYard;
+    }
+
+    public void setCourtYard(boolean courtYard) {
+        this.courtYard = courtYard;
+    }
 }
