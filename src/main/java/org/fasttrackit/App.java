@@ -45,6 +45,8 @@ public class App {
         Adopter fistAdopter = new Adopter();
         fistAdopter.name = "Dorina";
         fistAdopter.moneyAvailable = 2500;
+        fistAdopter.feed(firstAnimal,animalFood1);
+        fistAdopter.play(firstAnimal,recreationalActivity);
 
         System.out.println(fistAdopter.name);
         System.out.println(fistAdopter.moneyAvailable);
