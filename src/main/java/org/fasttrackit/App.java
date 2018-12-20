@@ -10,13 +10,11 @@ public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        RecreationalActivity recreationalActivity = new RecreationalActivity();
-        recreationalActivity.name = "Frisby";
+        RecreationalActivity recreationalActivity = new RecreationalActivity("Frisby");
 
         System.out.println(recreationalActivity.name);
 
-        AnimalFood animalFood1 = new AnimalFood();
-        animalFood1.name = "Friskies";
+        AnimalFood animalFood1 = new AnimalFood("Friskies");
         animalFood1.price = 10; //price/kilo
         animalFood1.amount = 10;
         animalFood1.expirationDate = LocalDate.of(2020,10,10);
@@ -28,8 +26,7 @@ public class App {
         System.out.println(animalFood1.expirationDate);
         System.out.println(animalFood1.inStoc);
 
-        Animal firstAnimal = new Animal();
-        firstAnimal.name = "Lucky";
+        Animal firstAnimal = new Animal("Lucky");
         firstAnimal.ageInMonths = 15;
         firstAnimal.healthyLvl=10;// foarte sanatos
         firstAnimal.hungryLvl=1; // nu ii e deloc foame

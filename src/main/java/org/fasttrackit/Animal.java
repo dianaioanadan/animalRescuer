@@ -10,4 +10,8 @@ public class Animal {
     RecreationalActivity favoriteRecreationalActivity;
     int friendlyLvl;
     boolean loveKids;
+
+    public Animal(String name) {
+        this.name = name;
+    }
 }

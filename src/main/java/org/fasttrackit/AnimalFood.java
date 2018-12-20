@@ -11,4 +11,8 @@ public class AnimalFood {
     boolean inStoc;
     String store;
     String flavor;
+
+    public AnimalFood(String name) {
+        this.name = name;
+    }
 }
