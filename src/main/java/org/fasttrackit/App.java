@@ -51,8 +51,7 @@ public class App {
         System.out.println(fistAdopter.name);
         System.out.println(fistAdopter.moneyAvailable);
 
-        Veterinarian veterinarian1 = new Veterinarian();
-        veterinarian1.name = "Sibisan";
+        Veterinarian veterinarian1 = new Veterinarian("Sibisan");
         veterinarian1.specialization = "parasitology";
 
         System.out.println(veterinarian1.name);
