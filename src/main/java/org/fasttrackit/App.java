@@ -15,10 +15,10 @@ public class App {
         System.out.println(recreationalActivity.name);
 
         AnimalFood animalFood1 = new AnimalFood("Friskies");
-        animalFood1.price = 10; //price/kilo
-        animalFood1.amount = 10;
-        animalFood1.expirationDate = LocalDate.of(2020,10,10);
-        animalFood1.inStoc = true;
+        animalFood1.setPrice(10); //price/kilo
+        animalFood1.setAmount(10);
+        animalFood1.setExpirationDate(LocalDate.of(2020,10,10));
+        animalFood1.setInStoc(true);
 
         System.out.println(animalFood1.name);
         System.out.println(animalFood1.price);
@@ -27,12 +27,12 @@ public class App {
         System.out.println(animalFood1.inStoc);
 
         Animal firstAnimal = new Animal("Lucky");
-        firstAnimal.ageInMonths = 15;
-        firstAnimal.healthyLvl=10;// foarte sanatos
-        firstAnimal.hungryLvl=1; // nu ii e deloc foame
-        firstAnimal.moodLvl=10; // foarte fericit
-        firstAnimal.favoriteFoodName = animalFood1;
-        firstAnimal.favoriteRecreationalActivity= recreationalActivity;
+        firstAnimal.setAgeInMonths(15);
+        firstAnimal.setHealthyLvl(10);// foarte sanatos
+        firstAnimal.setHungryLvl(1); // nu ii e deloc foame
+        firstAnimal.setMoodLvl(10); // foarte fericit
+        firstAnimal.setFavoriteFoodName(animalFood1);
+        firstAnimal.setFavoriteRecreationalActivity(recreationalActivity);
 
         System.out.println(firstAnimal.name);
         System.out.println(firstAnimal.ageInMonths);
@@ -43,18 +43,18 @@ public class App {
         System.out.println(firstAnimal.favoriteRecreationalActivity);
 
         Adopter fistAdopter = new Adopter();
-        fistAdopter.name = "Dorina";
-        fistAdopter.moneyAvailable = 2500;
+        fistAdopter.setName("Dorina");
+        fistAdopter.setMoneyAvailable(2500);
         fistAdopter.feed(firstAnimal,animalFood1);
         fistAdopter.play(firstAnimal,recreationalActivity);
 
         System.out.println(fistAdopter.name);
         System.out.println(fistAdopter.moneyAvailable);
 
-        Veterinarian veterinarian1 = new Veterinarian("Sibisan");
-        veterinarian1.specialization = "parasitology";
+        Veterinary veterinary1 = new Veterinary("Sibisan");
+        veterinary1.setSpecialization("parasitology");
 
-        System.out.println(veterinarian1.name);
-        System.out.println(veterinarian1.specialization);
+        System.out.println(veterinary1.name);
+        System.out.println(veterinary1.specialization);
     }
 }

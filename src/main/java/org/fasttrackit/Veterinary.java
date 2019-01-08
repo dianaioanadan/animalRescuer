@@ -1,12 +1,12 @@
 package org.fasttrackit;
 
-public class Veterinarian {
+public class Veterinary {
     String name;
     String specialization;
     String telephoneNo;
     boolean canComeHome;
 
-    public Veterinarian(String name) {
+    public Veterinary(String name) {
         this.name = name;
     }
 
