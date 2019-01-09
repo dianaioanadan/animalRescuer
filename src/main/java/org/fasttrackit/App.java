@@ -14,6 +14,7 @@ public class App {
 
         System.out.println(recreationalActivity.name);
 
+
         AnimalFood animalFood1 = new AnimalFood("Friskies");
         animalFood1.setPrice(10); //price/kilo
         animalFood1.setAmount(10);
