@@ -57,5 +57,12 @@ public class App {
 
         System.out.println(veterinary1.name);
         System.out.println(veterinary1.specialization);
+
+
+        Dog fistDog = new Dog("Lucky");
+        fistDog.moodSpirit(fistDog.getName()," is happy and shake his tail");
+
+        Cat fistCat = new Cat("Suzy");
+        fistCat.moodSpirit(fistCat.getName()," is sleeping and purrs");
     }
 }

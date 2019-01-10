@@ -15,6 +15,10 @@ public class Animal {
         this.name = name;
     }
 
+    public void moodSpirit(String name,String spirit){
+        System.out.println(name + spirit);
+    }
+
     public String getName() {
         return name;
     }
@@ -86,4 +90,5 @@ public class Animal {
     public void setLoveKids(boolean loveKids) {
         this.loveKids = loveKids;
     }
+
 }
