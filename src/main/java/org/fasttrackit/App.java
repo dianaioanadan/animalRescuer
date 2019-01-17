@@ -64,5 +64,8 @@ public class App {
 
         Animal firstCat = new Cat("Suzy");
         firstCat.moodSpirit(firstCat.getName()," is sleeping and purrs");
+
+        Game game = new Game(firstDog);
+        game.start();
     }
 }

@@ -16,6 +16,10 @@ public class AnimalFood {
         this.name = name;
     }
 
+    public AnimalFood() {
+
+    }
+
     public String getName() {
         return name;
     }
