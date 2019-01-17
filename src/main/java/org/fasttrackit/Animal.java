@@ -6,8 +6,8 @@ public class Animal {
     int healthyLvl;
     int hungryLvl;
     int moodLvl;
-    AnimalFood favoriteFoodName;
-    RecreationalActivity favoriteRecreationalActivity;
+    String favoriteFoodName;
+    String favoriteRecreationalActivity;
     int friendlyLvl;
     boolean loveKids;
 
@@ -59,19 +59,19 @@ public class Animal {
         this.moodLvl = moodLvl;
     }
 
-    public AnimalFood getFavoriteFoodName() {
+    public String getFavoriteFoodName() {
         return favoriteFoodName;
     }
 
-    public void setFavoriteFoodName(AnimalFood favoriteFoodName) {
+    public void setFavoriteFoodName(String favoriteFoodName) {
         this.favoriteFoodName = favoriteFoodName;
     }
 
-    public RecreationalActivity getFavoriteRecreationalActivity() {
+    public String getFavoriteRecreationalActivity() {
         return favoriteRecreationalActivity;
     }
 
-    public void setFavoriteRecreationalActivity(RecreationalActivity favoriteRecreationalActivity) {
+    public void setFavoriteRecreationalActivity(String favoriteRecreationalActivity) {
         this.favoriteRecreationalActivity = favoriteRecreationalActivity;
     }
 
@@ -82,13 +82,4 @@ public class Animal {
     public void setFriendlyLvl(int friendlyLvl) {
         this.friendlyLvl = friendlyLvl;
     }
-
-    public boolean isLoveKids() {
-        return loveKids;
-    }
-
-    public void setLoveKids(boolean loveKids) {
-        this.loveKids = loveKids;
-    }
-
 }

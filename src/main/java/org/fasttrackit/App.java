@@ -32,8 +32,8 @@ public class App {
         firstAnimal.setHealthyLvl(10);// foarte sanatos
         firstAnimal.setHungryLvl(10); // foarte flamand
         firstAnimal.setMoodLvl(1); // nu e fericit
-        firstAnimal.setFavoriteFoodName(animalFood1);
-        firstAnimal.setFavoriteRecreationalActivity(recreationalActivity);
+        firstAnimal.setFavoriteFoodName(animalFood1.name);
+        firstAnimal.setFavoriteRecreationalActivity(recreationalActivity.name);
 
         System.out.println(firstAnimal.name);
         System.out.println(firstAnimal.ageInMonths);

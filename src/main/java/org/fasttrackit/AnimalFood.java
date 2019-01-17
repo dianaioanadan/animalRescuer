@@ -71,4 +71,9 @@ public class AnimalFood {
     public void setFlavor(String flavor) {
         this.flavor = flavor;
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
