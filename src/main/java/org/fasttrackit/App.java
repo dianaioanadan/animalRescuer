@@ -30,8 +30,8 @@ public class App {
         Animal firstAnimal = new Animal("Lucky");
         firstAnimal.setAgeInMonths(15);
         firstAnimal.setHealthyLvl(10);// foarte sanatos
-        firstAnimal.setHungryLvl(1); // nu ii e deloc foame
-        firstAnimal.setMoodLvl(10); // foarte fericit
+        firstAnimal.setHungryLvl(10); // foarte flamand
+        firstAnimal.setMoodLvl(1); // nu e fericit
         firstAnimal.setFavoriteFoodName(animalFood1);
         firstAnimal.setFavoriteRecreationalActivity(recreationalActivity);
 
