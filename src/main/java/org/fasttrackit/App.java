@@ -59,10 +59,10 @@ public class App {
         System.out.println(veterinary1.specialization);
 
 
-        Dog firstDog = new Dog("Lucky");
+        Animal firstDog = new Dog("Lucky");
         firstDog.moodSpirit(firstDog.getName()," is happy and shake his tail");
 
-        Cat firstCat = new Cat("Suzy");
+        Animal firstCat = new Cat("Suzy");
         firstCat.moodSpirit(firstCat.getName()," is sleeping and purrs");
     }
 }
