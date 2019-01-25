@@ -9,6 +9,10 @@ public class RecreationalActivity {
         this.name = name;
     }
 
+    public RecreationalActivity() {
+
+    }
+
     public String getName() {
         return name;
     }

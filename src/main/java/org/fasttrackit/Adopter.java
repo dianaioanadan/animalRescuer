@@ -11,13 +11,13 @@ public class Adopter extends Person{
 
         System.out.println(name + " just gave some " + animalFood.name + " to " + animal.name);
 
-        animal.hungryLvl=animal.hungryLvl - 1;
+        animal.hungryLvl++;
 
         System.out.println("The new hungry level is: " +animal.hungryLvl);
 
         if (animal.favoriteFoodName.equals(animalFood.name)){
-            animal.moodLvl = animal.moodLvl + 1;
-            System.out.println("Because Flick was feed with his favourite food the mood level is: "  +animal.moodLvl);
+            animal.moodLvl++;
+            System.out.println("Because " + animal.name+ " was feed with his favourite food the mood level is: "  +animal.moodLvl);
         }
 
     }
@@ -26,13 +26,13 @@ public class Adopter extends Person{
 
         System.out.println(name + " play " + recreationalActivity.name + " with " + animal.name);
 
-        animal.moodLvl = animal.moodLvl + 1;
+        animal.moodLvl++;
 
-        System.out.println("Bceause Flick was outside and play the mood level is: " +animal.moodLvl);
+        System.out.println("Because "+animal.name+" was outside and play the mood level is: " +animal.moodLvl);
 
         if (animal.favoriteRecreationalActivity.equals(recreationalActivity.name)){
             animal.moodLvl = animal.moodLvl + 2;
-            System.out.println("Because outside Flick played his favourite game the mood level is: " +animal.moodLvl);
+            System.out.println("Because outside "+animal.name+" played his favourite game the mood level is: " +animal.moodLvl);
         }
 
     }
